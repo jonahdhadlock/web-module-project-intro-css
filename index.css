@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* My code below */
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 5%;
+}
+
+nav {
+    margin: 25px 0;
+}
+
+li {
+    display: inline;
+    width: 25%;
+    height: 10%;
+    padding: 15px;
+    margin: 25px;
+    font-size: 1.6rem;
+    border-radius: 10%;
+    color: #ffffff;
+}
+
+#plan {
+    background-color: #ff764e;
+}
+
+#learn {
+    background-color: #5ed3eb;
+}
+
+#get {
+    background-color: #ffcd69;
+}
+
+#headerImage {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.info {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.2rem;
+}
+
+.infoText {
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+.boxedText {
+    background-color: #ddb9a3;
+    color: #ffffff;
+}
+
+#fire {
+    width: 10%;
+    height: auto;
+    padding: 0;
+}
+
+#rv {
+    width: 10%;
+    height: auto;
+    padding: 0;
+}
+
+footer {
+    background-color: #f9e7dc;
+    height: 100px;
+    border: 2px solid #f9e7dc;
+}
+
+#footerImage {
+    width: 100%;
+    height: 250px;
+}
