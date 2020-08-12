@@ -162,9 +162,28 @@ html {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 3.2rem;
 }
 
 .boxedText {
     background-color: #ddb9a3;
     color: #eee;
+}
+
+#fire {
+    width: 10%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#rv {
+    width: 10%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #f9e7dc;
 }
