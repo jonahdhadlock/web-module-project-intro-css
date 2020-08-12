@@ -160,26 +160,25 @@ nav {
 
 li {
     display: inline;
-    width: 500px;
-    padding: 5px;
+    width: 25%;
+    height: 10%;
+    padding: 15px;
     margin: 25px;
     font-size: 1.6rem;
-    border-radius: 25%;
+    border-radius: 10%;
+    color: #ffffff;
 }
 
 #plan {
     background-color: #ff764e;
-    color: #ffffff;
 }
 
 #learn {
     background-color: #5ed3eb;
-    color: #ffffff;
 }
 
 #get {
     background-color: #ffcd69;
-    color: #ffffff;
 }
 
 #headerImage {
@@ -187,13 +186,18 @@ li {
     height: auto;
     border-radius: 100%;
     margin-top: 25px;
-    display: inline;
+}
+
+.info {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3.2rem;
-    display: inline;
 }
 
 .infoText {
@@ -220,9 +224,11 @@ h1 {
 
 footer {
     background-color: #f9e7dc;
+    height: 100px;
+    border: 2px solid #f9e7dc;
 }
 
 #footerImage {
     width: 100%;
-    height: auto;
+    height: 250px;
 }
