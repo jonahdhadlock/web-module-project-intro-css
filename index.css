@@ -141,7 +141,23 @@ html {
 }
 
 * {
+    font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
+}
+
+#plan {
+    background-color: #ff764e;
+    color: #eee;
+}
+
+#learn {
+    background-color: #5ed3eb;
+    color: #eee;
+}
+
+#get {
+    background-color: #ffcd69;
+    color: #eee;
 }
 
 h1 {
@@ -149,5 +165,6 @@ h1 {
 }
 
 .boxedText {
-    padding:
+    background-color: #ddb9a3;
+    color: #eee;
 }
