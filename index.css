@@ -136,6 +136,9 @@ table {
     border-spacing: 0;
 }
 
+
+/* My code below */
+
 html {
     font-size: 62.5%;
 }
@@ -143,6 +146,16 @@ html {
 * {
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+li {
+    width: 25%;
+    height: 15%;
 }
 
 #plan {
@@ -160,6 +173,11 @@ html {
     color: #eee;
 }
 
+#headerImage {
+    width: 20%;
+    height: auto;
+}
+
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3.2rem;
@@ -174,16 +192,19 @@ h1 {
     width: 10%;
     height: auto;
     padding: 0;
-    margin: 0;
 }
 
 #rv {
     width: 10%;
     height: auto;
     padding: 0;
-    margin: 0;
 }
 
 footer {
     background-color: #f9e7dc;
+}
+
+#footerImage {
+    width: 100%;
+    height: auto;
 }
