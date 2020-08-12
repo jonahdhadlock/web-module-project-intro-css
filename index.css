@@ -151,16 +151,16 @@ html {
 body {
     text-align: center;
     font-size: 1.6rem;
+    margin: 5%;
 }
 
 nav {
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
 li {
     display: inline;
-    width: 25%;
-    height: 15%;
+    width: 500px;
     padding: 5px;
     margin: 25px;
     font-size: 1.6rem;
@@ -187,11 +187,18 @@ li {
     height: auto;
     border-radius: 100%;
     margin-top: 25px;
+    display: inline;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3.2rem;
+    display: inline;
+}
+
+.infoText {
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
 }
 
 .boxedText {
